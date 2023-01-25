@@ -16,14 +16,14 @@ interface Vehicle {
 class Taxi implements Vehicle {
   currentLocation: Point;
   travelTo(point: Point): void {
-    console.log(`taksi X: ${point.x} Y:${point.y} konumuna gidiyor.`);
+    console.log(`taksi X: ${point.x}, Y:${point.y} konumuna gidiyor.`);
   }
 }
 
 class Bus implements Vehicle {
   currentLocation: Point;
   travelTo(point: Point): void {
-    console.log(`otobüs X: ${point.x} Y:${point.y} konumuna gidiyor.`);
+    console.log(`otobüs X: ${point.x}, Y:${point.y} konumuna gidiyor.`);
   }
 }
 
