@@ -16,7 +16,7 @@ interface Vehicle {
 class Taxi implements Vehicle {
   color: string;
 
-  constructor(locataion?: Point, color?: string) {
+  constructor(locataion: Point, color: string) {
     this.currentLocation = locataion;
     this.color = color;
   }

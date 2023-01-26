@@ -1,6 +1,5 @@
 "use strict";
 exports.__esModule = true;
-exports.ProductService = void 0;
 var SimpleDataSource_1 = require("./SimpleDataSource");
 var ProductService = /** @class */ (function () {
     function ProductService() {
@@ -40,4 +39,4 @@ var ProductService = /** @class */ (function () {
     };
     return ProductService;
 }());
-exports.ProductService = ProductService;
+exports["default"] = ProductService;
